@@ -1,0 +1,8 @@
+{
+    "projects": [
+        "IdentityAccess",
+        "IdentityAccess.Data",
+        "Traking",
+        "SharedKernel"
+    ]
+}

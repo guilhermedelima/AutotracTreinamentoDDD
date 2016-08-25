@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "ApiService/1.0.0": {
+        "dependencies": {
+          "IdentityAccess": "1.0.0",
+          "IdentityAccess.Data": "1.0.0"
+        },
+        "runtime": {
+          "ApiService.dll": {}
+        }
+      },
+      "IdentityAccess/1.0.0": {
+        "dependencies": {
+          "SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "IdentityAccess.dll": {}
+        }
+      },
+      "IdentityAccess.Data/1.0.0": {
+        "dependencies": {
+          "IdentityAccess": "1.0.0"
+        },
+        "runtime": {
+          "IdentityAccess.Data.dll": {}
+        }
+      },
+      "SharedKernel/1.0.0": {
+        "runtime": {
+          "SharedKernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdentityAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdentityAccess.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharedKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

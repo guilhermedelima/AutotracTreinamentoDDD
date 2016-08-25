@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "IdentityAccess": "1.0.0",
+    "IdentityAccess.Data": "1.0.0"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      },
+      "imports": "dnxcore50"
+    }
+  }
+}
